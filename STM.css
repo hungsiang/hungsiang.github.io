@@ -13,8 +13,8 @@
     content: "";
     width: 9px;
     height: 9px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 2px 8px #f7f7f7;
+    border-radius: 9px;
+    background: gray;
   }
 }
 /* Some Cool Stuff */
