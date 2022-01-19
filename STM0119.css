@@ -113,13 +113,12 @@ kid {
 }
 @media (min-width: 1000px) {
   #timeline .demo-card {
-    max-width: 450px;
+    max-width: 45%;
     height: 400px;
     margin-top: 45px;
     margin-bottom: 45px;
   }
   #timeline .demo-card:nth-child(odd) {
-    margin-right: 45px;
   }
   #timeline .demo-card:nth-child(odd) .point::after {
     border-left-width: 15px;
@@ -130,7 +129,6 @@ kid {
     left: 100%;
   }
   #timeline .demo-card:nth-child(even) {
-    margin-left: 45px;
   }
   #timeline .demo-card:nth-child(even) .point::after {
     border-right-width: 15px;
