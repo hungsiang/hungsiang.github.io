@@ -113,7 +113,7 @@ kid {
 }
 @media (min-width: 1000px) {
   #timeline .demo-card {
-    max-width: 100%;
+    max-width: 450px;
     height: 400px;
     margin: 90px;
     margin-top: 45px;
