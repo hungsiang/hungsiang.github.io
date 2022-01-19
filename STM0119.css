@@ -97,8 +97,6 @@ kid {
 #timeline .demo-card {
   position: relative;
   display: block;
-
-
   z-index: 2;
 }
 @media (min-width: 990px) {
@@ -126,7 +124,7 @@ kid {
     left: 100%;
   }
   #timeline .demo-card:nth-child(odd) .point::before {
-    left: 100%;
+    left: 150%;
   }
   #timeline .demo-card:nth-child(even) {
   }
@@ -136,7 +134,7 @@ kid {
     right: 100%;
   }
   #timeline .demo-card:nth-child(even) .point::before {
-    right: 100%;
+    right: 150%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
