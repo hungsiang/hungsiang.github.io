@@ -1,11 +1,16 @@
+/* Media Queries */
+/* Card sizing */
+/* Colors */
+/* Calculations */
+/* Placeholders */
 @media (min-width: 1000px) {
   #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
     position: absolute;
     content: "";
     width: 0;
     height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
   }
 
   #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
@@ -18,7 +23,7 @@
     box-shadow: 0px 0px 2px 8px #f7f7f7;
   }
 }
-
+/* Some Cool Stuff */
 .demo-card:nth-child(1) {
   order: 1;
 }
@@ -49,13 +54,21 @@
 }
 
 /* Fonts */
+kid {
+  font-family: Roboto;
+}
 
+#timeline {
+  padding: 100px 0;
+  background: #f7f7f7;
+  border-top: 1px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+}
 #timeline h1 {
   text-align: center;
   font-size: 3rem;
   font-weight: 200;
   margin-bottom: 20px;
-  line-height: 1;
 }
 #timeline p.leader {
   text-align: center;
@@ -65,14 +78,15 @@
 }
 #timeline .demo-card-wrapper {
   position: relative;
+  margin: auto;
 }
 @media (min-width: 1000px) {
   #timeline .demo-card-wrapper {
     display: flex;
     flex-flow: column wrap;
-    width: 100%;
-    height: 1550px;
-    margin-bottom: 5em;
+    width: 1170px;
+    height: 1650px;
+    margin: 0 auto;
   }
 }
 #timeline .demo-card-wrapper::after {
@@ -81,7 +95,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 45%;
+  left: 50%;
   border-left: 1px solid rgba(191, 191, 191, 0.4);
 }
 @media (min-width: 1000px) {
@@ -92,25 +106,31 @@
 #timeline .demo-card {
   position: relative;
   display: block;
+  margin: 10px auto 80px;
+  max-width: 94%;
   z-index: 2;
 }
-@media (min-width: 990px) {
+@media (min-width: 480px) {
   #timeline .demo-card {
     max-width: 60%;
     box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
   }
 }
-@media (min-width: 1000px) {
+@media (min-width: 720px) {
   #timeline .demo-card {
     max-width: 40%;
   }
 }
 @media (min-width: 1000px) {
   #timeline .demo-card {
+    max-width: 450px;
+    height: 400px;
+    margin: 90px;
     margin-top: 45px;
     margin-bottom: 45px;
   }
   #timeline .demo-card:nth-child(odd) {
+    margin-right: 45px;
   }
   #timeline .demo-card:nth-child(odd) .point::after {
     border-left-width: 15px;
@@ -121,6 +141,7 @@
     left: 491.5px;
   }
   #timeline .demo-card:nth-child(even) {
+    margin-left: 45px;
   }
   #timeline .demo-card:nth-child(even) .point::after {
     border-right-width: 15px;
@@ -146,7 +167,8 @@
   float: left;
   margin: 15px;
   padding: 15px;
-  font-size: 35px; 
+  font-size: 35px;
+  line-height: 2.5;
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
 }
@@ -159,10 +181,10 @@
   padding-bottom: 6px;
   line-height: 1.5rem;
 }
-@media (min-width: 990px) {
+@media (min-width: 480px) {
   #timeline .demo-card .point h2 {
     font-size: 165%;
-    line-height: 2.2rem;
+    line-height: 1.2rem;
   }
 }
 #timeline .demo-card .point h2 span {
@@ -170,7 +192,7 @@
   font-size: 0.6rem;
   margin: 0;
 }
-@media (min-width: 990px) {
+@media (min-width: 480px) {
   #timeline .demo-card .point h2 span {
     font-size: 0.8rem;
   }
@@ -184,7 +206,7 @@
 }
 @media (min-width: 1000px) {
   #timeline .demo-card .kid {
-    height: auto;
+    height: 315px;
   }
 }
 #timeline .demo-card .kid p {
@@ -199,21 +221,33 @@
   margin: auto;
 }
 #timeline .demo-card--step1 {
-  background-color: #e26e11;
+  background-color: #46b8e9;
 }
-
+#timeline .demo-card--step1 .point::after {
+  border-color: #46b8e9;
+}
 #timeline .demo-card--step2 {
-  background-color: #0e294b;
+  background-color: #3ee9d1;
 }
-
+#timeline .demo-card--step2 .point::after {
+  border-color: #3ee9d1;
+}
 #timeline .demo-card--step3 {
-  background-color: #0e294b;
+  background-color: #ce43eb;
 }
-
+#timeline .demo-card--step3 .point::after {
+  border-color: #ce43eb;
+}
 #timeline .demo-card--step4 {
-  background-color: #e26e11;
+  background-color: #4d92eb;
+}
+#timeline .demo-card--step4 .point::after {
+  border-color: #4d92eb;
+}
+#timeline .demo-card--step5 {
+  background-color: #46b8e9;
+}
+#timeline .demo-card--step5 .point::after {
+  border-color: #46b8e9;
 }
 
-#timeline .demo-card--step5 {
-  background-color: #808080;
-}
