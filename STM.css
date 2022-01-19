@@ -18,7 +18,6 @@
     content: "";
     width: 9px;
     height: 9px;
-    background-color: #bdbdbd;
     border-radius: 9px;
     box-shadow: 0px 0px 2px 8px #f7f7f7;
   }
@@ -221,32 +220,32 @@ kid {
   margin: auto;
 }
 #timeline .demo-card--step1 {
-  background-color: #46b8e9;
+  background-color: #e26e11;
 }
 #timeline .demo-card--step1 .point::after {
-  border-color: #46b8e9;
+  border-color: #e26e11;
 }
 #timeline .demo-card--step2 {
-  background-color: #3ee9d1;
+  background-color: #0e294b;
 }
 #timeline .demo-card--step2 .point::after {
-  border-color: #3ee9d1;
+  border-color: #0e294b;
 }
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: #0e294b;
 }
 #timeline .demo-card--step3 .point::after {
-  border-color: #ce43eb;
+  border-color: #0e294b;
 }
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: #e26e11;
 }
 #timeline .demo-card--step4 .point::after {
-  border-color: #4d92eb;
+  border-color: #e26e11;
 }
 #timeline .demo-card--step5 {
-  background-color: #46b8e9;
+  background-color: #696969;
 }
 #timeline .demo-card--step5 .point::after {
-  border-color: #46b8e9;
+  border-color: #696969;
 }
