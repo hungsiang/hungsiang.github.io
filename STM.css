@@ -14,7 +14,7 @@
     width: 9px;
     height: 9px;
     border-radius: 9px;
-    background: gray;
+    background: gray;4
   }
 }
 /* Some Cool Stuff */
@@ -130,7 +130,7 @@ kid {
     left: 100%;
   }
   #timeline .demo-card:nth-child(odd) .point::before {
-    left: 491.5px;
+    left: 50%;
   }
   #timeline .demo-card:nth-child(even) {
     margin-left: 45px;
@@ -141,7 +141,7 @@ kid {
     right: 100%;
   }
   #timeline .demo-card:nth-child(even) .point::before {
-    right: 489.5px;
+    right: 50%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
