@@ -1,16 +1,16 @@
 @media (min-width: 1000px) {
   #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
     position: absolute;
-    content: ".";
+    content: "";
     width: 0;
     height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
   }
 
   #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
     position: absolute;
-    content: ".";
+    content: "";
     width: 9px;
     height: 9px;
     background-color: #bdbdbd;
