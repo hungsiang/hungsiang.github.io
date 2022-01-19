@@ -1,26 +1,20 @@
-/* Media Queries */
-/* Card sizing */
-/* Colors */
-/* Calculations */
-/* Placeholders */
 @media (min-width: 1000px) {
-  #timeline .demo-card:nth-child(even) .head::after, #timeline .demo-card:nth-child(odd) .head::after {
+  #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
     position: absolute;
     content: "";
     width: 0;
     height: 0;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
   }
 
-  #timeline .demo-card:nth-child(even) .head::before, #timeline .demo-card:nth-child(odd) .head::before {
+  #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
     position: absolute;
     content: "";
     width: 9px;
     height: 9px;
-    background-color: #bdbdbd;
     border-radius: 9px;
-    box-shadow: 0px 0px 2px 8px #f7f7f7;
+    background: gray;
   }
 }
 /* Some Cool Stuff */
@@ -59,10 +53,7 @@ kid {
 }
 
 #timeline {
-  padding: 100px 0;
-  background: #f7f7f7;
-  border-top: 1px solid rgba(191, 191, 191, 0.4);
-  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+  
 }
 #timeline h1 {
   text-align: center;
@@ -106,11 +97,11 @@ kid {
 #timeline .demo-card {
   position: relative;
   display: block;
-  margin: 10px auto 80px;
-  max-width: 94%;
+
+
   z-index: 2;
 }
-@media (min-width: 480px) {
+@media (min-width: 990px) {
   #timeline .demo-card {
     max-width: 60%;
     box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
@@ -118,12 +109,11 @@ kid {
 }
 @media (min-width: 720px) {
   #timeline .demo-card {
-    max-width: 40%;
   }
 }
 @media (min-width: 1000px) {
   #timeline .demo-card {
-    max-width: 450px;
+    max-width: 100%;
     height: 400px;
     margin: 90px;
     margin-top: 45px;
@@ -132,37 +122,37 @@ kid {
   #timeline .demo-card:nth-child(odd) {
     margin-right: 45px;
   }
-  #timeline .demo-card:nth-child(odd) .head::after {
+  #timeline .demo-card:nth-child(odd) .point::after {
     border-left-width: 15px;
     border-left-style: solid;
     left: 100%;
   }
-  #timeline .demo-card:nth-child(odd) .head::before {
-    left: 491.5px;
+  #timeline .demo-card:nth-child(odd) .point::before {
+    left: 109.2%;
   }
   #timeline .demo-card:nth-child(even) {
     margin-left: 45px;
   }
-  #timeline .demo-card:nth-child(even) .head::after {
+  #timeline .demo-card:nth-child(even) .point::after {
     border-right-width: 15px;
     border-right-style: solid;
     right: 100%;
   }
-  #timeline .demo-card:nth-child(even) .head::before {
-    right: 489.5px;
+  #timeline .demo-card:nth-child(even) .point::before {
+    right: 108.8%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
   }
 }
-#timeline .demo-card .head {
+#timeline .demo-card .point {
   position: relative;
   display: flex;
   align-items: center;
   color: #fff;
   font-weight: 400;
 }
-#timeline .demo-card .head .number-box {
+#timeline .demo-card .point .number-box {
   display: inline;
   float: left;
   margin: 15px;
@@ -172,7 +162,7 @@ kid {
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
 }
-#timeline .demo-card .head h2 {
+#timeline .demo-card .point h2 {
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: inherit;
@@ -181,19 +171,19 @@ kid {
   padding-bottom: 6px;
   line-height: 1.5rem;
 }
-@media (min-width: 480px) {
-  #timeline .demo-card .head h2 {
+@media (min-width: 990px) {
+  #timeline .demo-card .point h2 {
     font-size: 165%;
     line-height: 1.2rem;
   }
 }
-#timeline .demo-card .head h2 span {
+#timeline .demo-card .point h2 span {
   display: block;
   font-size: 0.6rem;
   margin: 0;
 }
-@media (min-width: 480px) {
-  #timeline .demo-card .head h2 span {
+@media (min-width: 990px) {
+  #timeline .demo-card .point h2 span {
     font-size: 0.8rem;
   }
 }
@@ -221,32 +211,32 @@ kid {
   margin: auto;
 }
 #timeline .demo-card--step1 {
-  background-color: #46b8e9;
+  background-color: #e26e11;
 }
-#timeline .demo-card--step1 .head::after {
-  border-color: #46b8e9;
+#timeline .demo-card--step1 .point::after {
+  border-color: #e26e11;
 }
 #timeline .demo-card--step2 {
-  background-color: #3ee9d1;
+  background-color: #0e294b;
 }
-#timeline .demo-card--step2 .head::after {
-  border-color: #3ee9d1;
+#timeline .demo-card--step2 .point::after {
+  border-color: #0e294b;
 }
 #timeline .demo-card--step3 {
-  background-color: #ce43eb;
+  background-color: #0e294b;
 }
-#timeline .demo-card--step3 .head::after {
-  border-color: #ce43eb;
+#timeline .demo-card--step3 .point::after {
+  border-color: #0e294b;
 }
 #timeline .demo-card--step4 {
-  background-color: #4d92eb;
+  background-color: #e26e11;
 }
-#timeline .demo-card--step4 .head::after {
-  border-color: #4d92eb;
+#timeline .demo-card--step4 .point::after {
+  border-color: #e26e11;
 }
 #timeline .demo-card--step5 {
-  background-color: #46b8e9;
+  background-color: #696969;
 }
-#timeline .demo-card--step5 .head::after {
-  border-color: #46b8e9;
+#timeline .demo-card--step5 .point::after {
+  border-color: #696969;
 }
