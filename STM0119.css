@@ -77,7 +77,7 @@ kid {
     flex-flow: column wrap;
     width: auto;
     height: 1550px;
-    margin: 0 auto;
+    margin: 50px 0;
   }
 }
 #timeline .demo-card-wrapper::after {
