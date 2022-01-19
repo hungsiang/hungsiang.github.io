@@ -133,10 +133,10 @@ kid {
   #timeline .demo-card:nth-child(even) .point::after {
     border-right-width: 15px;
     border-right-style: solid;
-    right: 100;
+    right: 100%;
   }
   #timeline .demo-card:nth-child(even) .point::before {
-    right: 100;
+    right: 100%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
