@@ -134,7 +134,7 @@ kid {
     right: 100%;
   }
   #timeline .demo-card:nth-child(even) .point::before {
-    right: 104.4%;
+    right: 104.3%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
