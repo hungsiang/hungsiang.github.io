@@ -75,8 +75,8 @@ kid {
   #timeline .demo-card-wrapper {
     display: flex;
     flex-flow: column wrap;
-    width: 1170px;
-    height: 1650px;
+    width: auto;
+    height: 1550px;
     margin: 0 auto;
   }
 }
@@ -115,7 +115,6 @@ kid {
   #timeline .demo-card {
     max-width: 450px;
     height: 400px;
-    margin: 90px;
     margin-top: 45px;
     margin-bottom: 45px;
   }
@@ -128,7 +127,7 @@ kid {
     left: 100%;
   }
   #timeline .demo-card:nth-child(odd) .point::before {
-    left: 109.2%;
+    left: 100%;
   }
   #timeline .demo-card:nth-child(even) {
     margin-left: 45px;
@@ -139,7 +138,7 @@ kid {
     right: 100%;
   }
   #timeline .demo-card:nth-child(even) .point::before {
-    right: 108.8%;
+    right: 100%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
