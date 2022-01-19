@@ -11,9 +11,9 @@
   #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
     position: absolute;
     content: "";
-    width: 50px;
-    height: 50px;
-    border-radius: 20px;
+    width: 9px;
+    height: 9px;
+    border-radius: 5px;
     box-shadow: 0px 0px 2px 8px #f7f7f7;
   }
 }
@@ -53,8 +53,6 @@ kid {
 }
 
 #timeline {
-  padding: 100px 0;
-  background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 }
@@ -104,7 +102,7 @@ kid {
   max-width: 94%;
   z-index: 2;
 }
-@media (min-width: 480px) {
+@media (min-width: 990px) {
   #timeline .demo-card {
     max-width: 60%;
     box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
@@ -175,7 +173,7 @@ kid {
   padding-bottom: 6px;
   line-height: 1.5rem;
 }
-@media (min-width: 480px) {
+@media (min-width: 990px) {
   #timeline .demo-card .point h2 {
     font-size: 165%;
     line-height: 1.2rem;
@@ -186,7 +184,7 @@ kid {
   font-size: 0.6rem;
   margin: 0;
 }
-@media (min-width: 480px) {
+@media (min-width: 990px) {
   #timeline .demo-card .point h2 span {
     font-size: 0.8rem;
   }
