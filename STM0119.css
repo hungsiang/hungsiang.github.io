@@ -243,6 +243,7 @@ kid {
   align-items: center;
   justify-content: center;
   margin: 50px 0;
+  margin-top: -140px;
 }
 
 .slider {
@@ -273,8 +274,7 @@ kid {
   height: 600px;
   scroll-snap-align: center;
   margin-right: 0px;
-  box-sizing: border-box;
-  background: white;
+  box-sizing: border-box;  
   transform-origin: center center;
   transform: scale(1);
 }
