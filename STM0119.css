@@ -241,14 +241,14 @@ kid {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 400px;
+  height: 600px;
   margin: 20px 0;
 }
 
 .slider {
   width: 100%;
   max-width: 600px;
-  height: 400px;
+  height: 600px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -261,6 +261,7 @@ kid {
   position: relative;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
+  margin: 50px 0;
 }
 
 
@@ -270,7 +271,7 @@ kid {
   align-items: center;
   flex-shrink: 0;
   width: 100%;
-  height: 400px;
+  height: 600px;
   scroll-snap-align: center;
   margin-right: 0px;
   box-sizing: border-box;
