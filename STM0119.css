@@ -241,14 +241,12 @@ kid {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  margin: 20px 0;
+  margin: 50px 0;
 }
 
 .slider {
   width: 100%;
   max-width: 600px;
-  height: 600px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -330,7 +328,7 @@ a.slide__next,
 .slider__nav {
   box-sizing: border-box;
   position: absolute;
-  bottom: 5%;
+  bottom: 1%;
   left: 50%;
   width: 200px;
   margin-left: -100px;
