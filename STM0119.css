@@ -242,14 +242,13 @@ kid {
   align-items: center;
   justify-content: center;
   height: 400px;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .slider {
   width: 100%;
   max-width: 600px;
   height: 400px;
-  
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -257,7 +256,7 @@ kid {
 
 .slides {
   display: flex;
-  overflow-x: hidden;
+  overflow-x: scroll;
   position: relative;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
