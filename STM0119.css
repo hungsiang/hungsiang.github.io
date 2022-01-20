@@ -60,6 +60,7 @@ kid {
   font-size: 3rem;
   font-weight: 200;
   margin-bottom: 20px;
+  line-height: 1;
 }
 #timeline p.leader {
   text-align: center;
