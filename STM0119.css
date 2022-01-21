@@ -333,6 +333,7 @@ a.slide__next,
   box-sizing: border-box;
   position: relative;
   text-align: center;
+  margin: 50px;
 }
 
 .slider__navlink {
@@ -341,7 +342,7 @@ a.slide__next,
   width: 10px;
   border-radius: 50%;
   background-color: #E5E7E9;
-  margin: 50px;
+  margin: 0 10px 0 10px;
 }
 @media (min-width:  1000px){
   .slider-container {
