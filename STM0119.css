@@ -274,7 +274,8 @@ kid {
   height: 600px;
   scroll-snap-align: center;
   margin-right: 0px;
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  
   transform-origin: center center;
   transform: scale(1);
 }
