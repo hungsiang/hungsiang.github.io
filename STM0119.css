@@ -1,23 +1,5 @@
-@media (min-width: 1000px) {
-  #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-  }
-
-  #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
-    position: absolute;
-    content: "";
-    width: 9px;
-    height: 9px;
-    border-radius: 9px;
-    background: gray;
-  }
-}
 /* Some Cool Stuff */
+
 .demo-card:nth-child(1) {
   order: 1;
 }
@@ -42,16 +24,25 @@
   order: 6;
 }
 
-/* Border Box */
-* {
-  box-sizing: border-box;
-}
+@media (min-width: 1000px) {
+  #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  }
 
-/* Fonts */
-kid {
-  font-family: Roboto;
+  #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    background: gray;
+  }
 }
-
 
 #timeline h1 {
   text-align: center;
@@ -237,6 +228,7 @@ kid {
   border-color: #696969;
 }
 
+/* Some Cool Slider */
 
 .slider-container {
   display: flex;
@@ -262,7 +254,7 @@ kid {
   position: relative;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
-
+  background: white;
 }
 
 
