@@ -256,8 +256,7 @@ kid {
 
 .slides {
   display: flex;
-  overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-x: scroll;
   position: relative;
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
