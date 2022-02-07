@@ -161,7 +161,7 @@
 }
 @media (min-width: 990px) {
   #timeline .demo-card .point h2 {
-    line-height: 1;
+    line-height: 1.5;
   }
 }
 #timeline .demo-card .point h2 span {
