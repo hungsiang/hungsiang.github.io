@@ -210,10 +210,10 @@
   border-color: #0e294b;
 }
 #timeline .demo-card--step3 {
-  background-color: #0e294b;
+  background-color: #696969;
 }
 #timeline .demo-card--step3 .point::after {
-  border-color: #0e294b;
+  border-color: #696969;
 }
 #timeline .demo-card--step4 {
   background-color: #e26e11;
