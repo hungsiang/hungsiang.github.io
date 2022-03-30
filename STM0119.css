@@ -1,23 +1,5 @@
-@media (min-width: 1000px) {
-  #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 0;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-  }
-
-  #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
-    position: absolute;
-    content: "";
-    width: 9px;
-    height: 9px;
-    border-radius: 9px;
-    background: gray;
-  }
-}
 /* Some Cool Stuff */
+
 .demo-card:nth-child(1) {
   order: 1;
 }
@@ -42,24 +24,32 @@
   order: 6;
 }
 
-/* Border Box */
-* {
-  box-sizing: border-box;
+@media (min-width: 1000px) {
+  #timeline .demo-card:nth-child(even) .point::after, #timeline .demo-card:nth-child(odd) .point::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+  }
+
+  #timeline .demo-card:nth-child(even) .point::before, #timeline .demo-card:nth-child(odd) .point::before {
+    position: absolute;
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 9px;
+    background: gray;
+  }
 }
 
-/* Fonts */
-kid {
-  font-family: Roboto;
-}
-
-#timeline {
-  
-}
 #timeline h1 {
   text-align: center;
   font-size: 3rem;
   font-weight: 200;
   margin-bottom: 20px;
+  line-height: 1;
 }
 #timeline p.leader {
   text-align: center;
@@ -75,9 +65,9 @@ kid {
   #timeline .demo-card-wrapper {
     display: flex;
     flex-flow: column wrap;
-    width: 1170px;
-    height: 1650px;
-    margin: 0 auto;
+    width: auto;
+    height: 1450px;
+    margin: 50px 0;
   }
 }
 #timeline .demo-card-wrapper::after {
@@ -86,7 +76,7 @@ kid {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 50%;
+  left: 47.5%;
   border-left: 1px solid rgba(191, 191, 191, 0.4);
 }
 @media (min-width: 1000px) {
@@ -97,8 +87,6 @@ kid {
 #timeline .demo-card {
   position: relative;
   display: block;
-
-
   z-index: 2;
 }
 @media (min-width: 990px) {
@@ -107,20 +95,21 @@ kid {
     box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
   }
 }
-@media (min-width: 720px) {
-  #timeline .demo-card {
-  }
+
+@media (max-width:  1000px){
+  .demo-card-wrapper{
+  display: none;}
 }
+
 @media (min-width: 1000px) {
+
   #timeline .demo-card {
-    max-width: 450px;
+    max-width: 45%;
     height: 400px;
-    margin: 90px;
     margin-top: 45px;
     margin-bottom: 45px;
   }
   #timeline .demo-card:nth-child(odd) {
-    margin-right: 45px;
   }
   #timeline .demo-card:nth-child(odd) .point::after {
     border-left-width: 15px;
@@ -128,10 +117,9 @@ kid {
     left: 100%;
   }
   #timeline .demo-card:nth-child(odd) .point::before {
-    left: 109.2%;
+    left: 104.5%;
   }
   #timeline .demo-card:nth-child(even) {
-    margin-left: 45px;
   }
   #timeline .demo-card:nth-child(even) .point::after {
     border-right-width: 15px;
@@ -139,7 +127,7 @@ kid {
     right: 100%;
   }
   #timeline .demo-card:nth-child(even) .point::before {
-    right: 108.8%;
+    right: 104.5%;
   }
   #timeline .demo-card:nth-child(2) {
     margin-top: 180px;
@@ -158,7 +146,7 @@ kid {
   margin: 15px;
   padding: 15px;
   font-size: 35px;
-  line-height: 2.5;
+  line-height: 2;
   font-weight: 600;
   background: rgba(0, 0, 0, 0.17);
 }
@@ -169,12 +157,11 @@ kid {
   letter-spacing: 2px;
   margin: 0;
   padding-bottom: 6px;
-  line-height: 1.5rem;
+  line-height: 2;
 }
 @media (min-width: 990px) {
   #timeline .demo-card .point h2 {
-    font-size: 165%;
-    line-height: 1.2rem;
+    line-height: 1.5;
   }
 }
 #timeline .demo-card .point h2 span {
@@ -223,10 +210,10 @@ kid {
   border-color: #0e294b;
 }
 #timeline .demo-card--step3 {
-  background-color: #0e294b;
+  background-color: #696969;
 }
 #timeline .demo-card--step3 .point::after {
-  border-color: #0e294b;
+  border-color: #696969;
 }
 #timeline .demo-card--step4 {
   background-color: #e26e11;
@@ -235,8 +222,130 @@ kid {
   border-color: #e26e11;
 }
 #timeline .demo-card--step5 {
-  background-color: #696969;
+  background-color: #0e294b;
 }
 #timeline .demo-card--step5 .point::after {
+  border-color: #0e294b;
+}
+
+#timeline .demo-card--step6 {
+  background-color: #696969;
+}
+#timeline .demo-card--step6 .point::after {
   border-color: #696969;
+}
+
+/* Some Cool Slider */
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: 50px 15px;
+  box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(191, 191, 191, 0.4);
+}
+
+.slider {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.slides {
+  display: flex;
+  overflow-x: hidden;
+  position: relative;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  background: white;
+}
+
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+  scroll-snap-align: center;
+  margin-right: 0px;
+  box-sizing: border-box;
+
+  transform-origin: center center;
+  transform: scale(1);
+}
+
+.slide__text {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.slide a {
+  background: none;
+  border: none;
+}
+
+a.slide__prev,
+.slider::before {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  left: 5%;
+}
+
+a.slide__next,
+.slider::after {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  right: 5%;
+}
+
+.slider::before,
+.slider::after,
+.slide__prev,
+.slide__next {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  border: solid #E5E7E9;
+  border-width: 0 4px 4px 0;
+  padding: 3px;
+  box-sizing: border-box;
+}
+
+.slider::before,
+.slider::after {
+  content: "";
+  z-index: 1;
+  background: none;
+  pointer-events: none;
+
+}
+.slider__nav {
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  margin: 50px;
+}
+
+.slider__navlink {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: #E5E7E9;
+  margin: 0 10px 0 10px;
+}
+@media (min-width:  1000px){
+  .slider-container {
+  display: none;}
+  .slider__nav {
+  display: none;}
 }
