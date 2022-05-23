@@ -5,7 +5,7 @@
 }
 
 .demo-card:nth-child(2) {
-  order: 4;
+  order: 5;
 }
 
 .demo-card:nth-child(3) {
@@ -13,7 +13,7 @@
 }
 
 .demo-card:nth-child(4) {
-  order: 5;
+  order: 6;
 }
 
 .demo-card:nth-child(5) {
@@ -21,7 +21,11 @@
 }
 
 .demo-card:nth-child(6) {
-  order: 6;
+  order: 7;
+}
+
+.demo-card:nth-child(7) {
+  order: 4;
 }
 
 @media (min-width: 1000px) {
@@ -66,7 +70,7 @@
     display: flex;
     flex-flow: column wrap;
     width: auto;
-    height: 1450px;
+    height: 1800px;
     margin: 50px 0;
   }
 }
@@ -234,6 +238,14 @@
 #timeline .demo-card--step6 .point::after {
   border-color: #696969;
 }
+
+#timeline .demo-card--step7 {
+  background-color: #e26e11;
+}
+#timeline .demo-card--step7 .point::after {
+  border-color: #e26e11;
+}
+
 
 /* Some Cool Slider */
 
