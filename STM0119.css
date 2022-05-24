@@ -177,12 +177,12 @@
     font-size: 0.8rem;
   }
   
-  #timeline .demo-card .point h2 .40 {
+  #timeline .demo-card .point .40 {
   font-size: 0.6rem;
   margin: 0;
 }
 @media (min-width: 990px) {
-  #timeline .demo-card .point h2 .40 {
+  #timeline .demo-card .point .40 {
     font-size: 0.8rem;
   }
   
