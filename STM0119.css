@@ -198,7 +198,7 @@
 #timeline .demo-card .kid img {
   display: block;
   width: auto;
-  height: 200px;
+  height: auto;
   margin: auto;
 }
 #timeline .demo-card--step1 {
