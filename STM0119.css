@@ -167,13 +167,13 @@
     line-height: 1.5;
   }
 }
-#timeline .demo-card .point h2 span {
+#timeline .demo-card .point h2 .small {
   display: block;
   font-size: 0.6rem;
   margin: 0;
 }
 @media (min-width: 990px) {
-  #timeline .demo-card .point h2 span {
+  #timeline .demo-card .point h2 .small {
     font-size: 0.8rem;
   }
   
