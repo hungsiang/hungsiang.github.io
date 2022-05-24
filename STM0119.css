@@ -109,7 +109,6 @@
 
   #timeline .demo-card {
     max-width: 45%;
-    height: 400px;
     margin-top: 45px;
     margin-bottom: 45px;
   }
@@ -228,30 +227,35 @@
 
 #timeline .demo-card--step1 {
   background-color: #e26e11;
+   height: 400px;
 }
 #timeline .demo-card--step1 .point::after {
   border-color: #e26e11;
 }
 #timeline .demo-card--step2 {
   background-color: #0e294b;
+  height: 300px;
 }
 #timeline .demo-card--step2 .point::after {
   border-color: #0e294b;
 }
 #timeline .demo-card--step3 {
   background-color: #696969;
+  height: 400px;
 }
 #timeline .demo-card--step3 .point::after {
   border-color: #696969;
 }
 #timeline .demo-card--step4 {
   background-color: #e26e11;
+  height: 300px;
 }
 #timeline .demo-card--step4 .point::after {
   border-color: #e26e11;
 }
 #timeline .demo-card--step5 {
   background-color: #0e294b;
+  height: 400px;
 }
 #timeline .demo-card--step5 .point::after {
   border-color: #0e294b;
@@ -259,6 +263,7 @@
 
 #timeline .demo-card--step6 {
   background-color: #696969;
+  height: 400px;
 }
 #timeline .demo-card--step6 .point::after {
   border-color: #696969;
@@ -266,6 +271,7 @@
 
 #timeline .demo-card--step7 {
   background-color: #e26e11;
+  height: 400px;
 }
 #timeline .demo-card--step7 .point::after {
   border-color: #e26e11;
