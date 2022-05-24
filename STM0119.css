@@ -157,7 +157,7 @@
   text-transform: uppercase;
   font-size: 1.3rem;
   font-weight: inherit;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   margin: 0;
   padding-bottom: 6px;
   line-height: 2;
@@ -165,6 +165,8 @@
 @media (min-width: 990px) {
   #timeline .demo-card .point h2 {
     line-height: 1.5;
+    white-space: nowrap;
+    text-transform: capitalize;
   }
 }
 #timeline .demo-card .point h2 .small {
