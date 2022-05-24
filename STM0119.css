@@ -235,6 +235,9 @@
 #timeline .demo-card--step6 {
   background-color: #696969;
 }
+#timeline .demo-card--step6 .point::after {
+  border-color: #696969;
+}
 
 #timeline .demo-card--step7 {
   background-color: #e26e11;
