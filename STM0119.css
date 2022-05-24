@@ -201,6 +201,31 @@
   height: auto;
   margin: auto;
 }
+
+#timeline .demo-card .kid1 {
+  background: #fff;
+  border: 1px solid rgba(191, 191, 191, 0.4);
+  border-top: 0;
+  padding: 15px;
+  
+}
+@media (min-width: 1000px) {
+  #timeline .demo-card .kid1 {
+    height: 315px;
+  }
+}
+#timeline .demo-card .kid1 p {
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 15px;
+}
+#timeline .demo-card .kid1 img {
+  display: block;
+  width: auto;
+  height: auto;
+  margin: auto;
+}
+
 #timeline .demo-card--step1 {
   background-color: #e26e11;
 }
