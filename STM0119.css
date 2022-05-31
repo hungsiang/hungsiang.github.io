@@ -70,7 +70,7 @@
     display: flex;
     flex-flow: column wrap;
     width: auto;
-    height: 2000px;
+    height: 1700px;
     margin: 50px 0;
   }
 }
@@ -267,7 +267,7 @@
 }
 #timeline .demo-card--step5 {
   background-color: #0e294b;
-  height: 400px;
+  height: 130px;
 }
 #timeline .demo-card--step5 .point::after {
   border-color: #0e294b;
